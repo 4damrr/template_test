@@ -30,3 +30,9 @@ type Education struct {
 	School string `json:"school"`
 	Year   int    `json:"year"`
 }
+
+type ExprEnv struct {
+	Price    float64   `expr:"price"`
+	Discount float64   `expr:"discount"`
+	Date     time.Time `expr:"date"`
+}
